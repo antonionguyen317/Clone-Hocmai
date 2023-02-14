@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: white;
+    border-top: 3px solid rgb(42, 112, 184);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 300px;
+}
+
+.header .left-side{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .left-side .logo{
+    cursor: pointer;
+}
+
+.header .left-side .search-box{
+    border: 1px solid rgb(42, 112, 184);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.header .left-side .search-box .search-text{
+    border: none;
+    outline: none;
+}
+
+.header .left-side .search-box img{
+    cursor: pointer;
+}
+
+.header .middle .image{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.header .right-side{
+    display: flex;
+    gap: 20px;
+}
+
+.header .right-side .login-btn{
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    color: rgb(42, 112, 184);
+    font-weight: bolder;
+}
+
+.header .right-side .register-btn{
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: rgb(42, 112, 184);
+    font-weight: bolder;
+}
+
+.intro{
+    background-color: rgb(42, 112, 184);
+    height: 230px;
+    padding: 0 300px;
+}
+
+.intro .link{
+    display: flex;
+    gap: 10px;
+    color: white;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.intro .link a{
+    color: white;
+    text-decoration: none;
+}
+
+.intro .link a:hover{
+    text-decoration: underline;
+}
+
+.intro .describe{
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 300px;
+}
+
+.intro .describe .intro-text{
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(90, 230, 255);
+}
+
+.intro .describe .detail{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0 20px;
+}
+
+.intro .describe .detail-text{
+    height: 50px;
+    width: 620px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.intro .describe .img{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+
+}
+
+.content .menu{
+    padding: 40px 0 0 300px;
+    background-color: rgb(245, 245, 245);
+    width: 610px;
+    padding-bottom: 50px;
+}
+
+.content .menu .help-list{
+    margin-bottom: 20px;
+}
+
+.content .menu .help-list .collapse{
+    padding-left: 12px;
+}
+
+.content .menu .help-list .collapse a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.content .menu .help-list .collapse a:hover{
+    text-decoration: underline;
+}
+
+.content .menu h5{
+    font-weight: 600;
+}
+
+.content .menu .btn{
+    color: black;
+    border: none;
+    border-radius: 0;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .quick-option{
+    padding-right: 300px;
+    width: calc(100% - 610px);
+}
+
+.content .quick-option .title{
+    margin-top: 40px;
+    font-size: 25px;
+    padding-left: 40px;
+}
+
+.content .quick-option .option{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.content .quick-option .option .option-btn{
+    width: 440px;
+    height: 100px;
+    border: 0.5px solid black;
+    background-color: white;
+}
+
+.content .quick-option .option .option-btn:hover{
+    box-shadow: 0 2px 2px 2px rgb(215, 215, 215);
+}
+
+.comment{
+    background-color: rgb(162, 162, 162);
+    padding: 0 300px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment .comment-item{
+    background-color: rgb(162, 162, 162);
+    border: 1px solid white;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 300px;
+    height: 80px;
+    padding: 0 30px;
+    color: white;
+}
+
+.footer{
+    padding: 0 300px;
+    background-image: url(https://hocmai.vn/theme/new2/images/bg-footer.png);
+}
+
+.footer .footer-option{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 30px 0;
+}
+
+.footer .title{
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: rgb(92, 92, 92);
+    margin-bottom: 25px;
+}
+
+.footer .item{
+    margin: 0 0 10px 10px;
+    cursor: pointer;
+}
+
+.footer .item:hover{
+    color: rgb(105, 176, 224);
+}
+
+.information .company-info{
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+    font-size: 13px;
+}

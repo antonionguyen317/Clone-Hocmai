@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./css/Login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
+    
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div class="header">
+            <div class="left-side">
+                <div class="menu">
+                    <i class="fa-solid fa-bars"></i>
+                    <div class="course">Các khóa học</div>
+                </div>
+                
+                <div class="search-box">
+                    <input type="text" class="search-text">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="middle">
+                <img src="https://hocmai.vn/assets/front/images/logo.png" alt="" class="image">
+            </div>
+
+            <div class="right-side">
+                <button class="login-btn"><a href="./Login.html">Đăng nhập</a></button>
+                <button class="register-btn"><a href="./Register.html">Đăng ký</a></button>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="title">
+                <h2 class="title-text">Đăng nhập vào tài khoản của bạn</h2>
+                <p class="intro-text">Học tập và giao lưu với hàng triệu học viên trên mọi miền đất nước.</p>
+            </div>
+
+            <div class="method-login">
+                <button class="login-by-fb">
+                    <i class="fa-brands fa-facebook"></i>
+                    Đăng nhập qua Facebook
+                </button>
+                <button class="login-by-gg">
+                    <i class="fa-brands fa-google"></i>
+                    Đăng nhập qua Google
+                </button>
+                <button class="login-by-yahoo">
+                    <i class="fa-brands fa-yahoo"></i>
+                    Đăng nhập qua Yahoo
+                </button>
+                <button class="login-by-apple">
+                    <i class="fa-brands fa-apple"></i>
+                    Đăng nhập với Apple
+                </button>
+            </div>
+
+            <div class="other-method">
+                <div class="or">
+                    <hr class="hr">
+                    <p class="text">Hoặc</p>
+                    <hr class="hr">
+                </div>
+                <input type="text" class="email" id="input-email" placeholder="Tên TK/Email">
+                <input type="password" class="password" id="input-password" placeholder="Mật khẩu">
+            </div>
+
+            <div class="login">
+                <button class="login-button" id="login-btn">Đăng nhập</button>
+                <a href="" class="forget-password">Quên mật khẩu?</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="footer">
+            <div class="footer-option">
+                <div class="about">
+                    <div class="title">Về HOCMAI</div>
+                    <div class="item">Giới thiệu</div>
+                    <div class="item">Giáo viên nổi tiếng</div>
+                    <div class="item">Hệ thống trung tâm HOCMAI</div>
+                    <div class="item">Học sinh tiêu biểu</div>
+                    <div class="item">Điều khoản chính sách</div>
+                    <div class="item">Quy chế hoạt động</div>
+                    <div class="item">Chính sách bảo mật thông tin</div>
+                    <div class="item">Giải quyết khiếu nại, tranh chấp</div>
+                    <div class="item">Tuyển dụng</div>
+                </div>
+    
+                <div class="service">
+                    <div class="title">Dịch vụ</div>
+                    <div class="item">Thư viện</div>
+                    <div class="item">Ôn luyện</div>
+                    <div class="item">Diễn đàn HOCMAI</div>
+                    <div class="item">Speakup - Tiếng Anh 1 kèm 1 Online</div>
+                    <div class="item">ICANTECH - Đào tạo Công nghệ & lập trình</div>
+                </div>
+    
+                <div class="support">
+                    <div class="title">Hỗ trợ khách hàng</div>
+                    <div class="item">Trung tâm hỗ trợ</div>
+                    <div class="item">Email: hotro@hocmai.vn</div>
+                    <div class="item">Đường dây nóng: 1900 6933</div>
+                </div>
+    
+                <div class="for-partners">
+                    <div class="title">Dành cho đối tác</div>
+                    <div class="item">Email: info@hocmai.vn</div>
+                    <div class="item">Tel: +84 (24) 3519-0591</div>
+                    <div class="item">Fax: +84 (24) 3519-0587</div>
+                </div>
+    
+                <div class="download-app">
+                    <div class="title">Tải ứng dụng HOCMAI</div>
+                    <div class="item"><img src="https://hocmai.vn/theme/new2/images/footer-google-app.png" alt=""></div>
+                    <div class="item"><img src="https://hocmai.vn/theme/new2/images/footer-store-app.png" alt=""></div>
+                    <div class="item"><img src="https://hocmai.vn/theme/new2/images/congthuong.png" alt=""></div>
+                </div>
+            </div>
+
+            <div class="information">
+                <hr>
+                
+                <div class="company-info">
+                    <p>
+                        Cơ quan chủ quản: Công ty Cổ phần Đầu tư và Dịch vụ Giáo dục
+                        <br>
+                        MST: 0102183602 do Sở kế hoạch và Đầu tư thành phố Hà Nội cấp ngày 13 tháng 03 năm 2007
+                        <br>
+                        Địa chỉ:
+                        <br>
+                        - Văn phòng Hà Nội: Tầng 4, Tòa nhà 25T2, Đường Nguyễn Thị Thập, Phường Trung Hoà, Quận Cầu Giấy, Hà Nội.
+                        <br>
+                        - Văn phòng TP.HCM: 13M đường số 14 khu đô thị Miếu Nổi, Phường 3, Quận Bình Thạnh, TP. Hồ Chí Minh
+                        <br>
+                        Hotline: 19006933 – Email: hotro@hocmai.vn
+                        <br>
+                        Chịu trách nhiệm nội dung: Phạm Giang Linh
+                    </p>
+                    <p>Giấy phép cung cấp dịch vụ mạng xã hội trực tuyến số 597/GP-BTTTT Bộ Thông tin và Truyền thông cấp ngày 30/12/2016.</p>
+                </div>
+                
+            </div>
+        </div>
+
+        
+    </div>
+
+
+
+    <script src="./js/Login.js"></script>
+</body>
+</html>

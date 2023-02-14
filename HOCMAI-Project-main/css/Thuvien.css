@@ -1,0 +1,787 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: ;
+}
+a{
+    color: white;
+}
+.side-bar a {
+    color: black;
+}
+
+.header {
+    width: 100%;
+    background: #2a70b8;
+    height: 50px;
+    display: flex;
+    color: white;
+}
+.inner-header {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.couse_menu span {
+    margin-left: 10px;
+}
+.header-search{
+    display: flex;
+    background: white;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -200px;
+}
+.logo{
+    margin-left: -160px;
+}
+
+input[type="text"] {
+    border: none;
+}
+i.fa-solid.fa-magnifying-glass {
+    color: gray;
+}
+.header-action {
+    display: flex;
+    align-items: center;
+}
+
+.btn button {
+    background: none;
+    border: none;
+    color: white;
+    margin-left: 10px;
+}
+.sign button{
+    background: orange;
+}
+.btn.sign button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-bottom-style: revert;
+}
+.inner-link {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0px;
+    color: #2a70b8;
+
+}
+.inner-link a {
+    text-decoration: none;
+    color: #2a70b8;
+
+    margin-left: 5px;
+}
+.content-box {
+    position: relative;
+    width: 100%;
+}
+.inner-c {
+    width: 80%;
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.side-bar {
+    width: 25%;
+    position: absolute;
+    top: 5px;
+}
+.menu {
+    border-right: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    border-radius: 5px;
+   
+    
+}
+.menu h3 {
+    background: #2a70b8;
+    ;
+    color: white;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    text-align: center;
+}
+ul {
+    list-style: none;
+}
+a{
+        text-decoration: none;
+
+}
+.menu li {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: center;
+}
+.number {
+    background: orange;
+    width: 32px;
+    padding: 1px;
+    border-radius: 3px;
+}
+.arrow {
+    color: lightgray;
+}
+.menu-c{
+    width: 150px;
+    padding-left: 6px;
+}
+.drope.hoc {
+    position: absolute;
+    right: -190px;
+    z-index: 3;
+    top: 56px;
+    border: gray;
+    display: none;
+    background: white;
+}
+.drope.hoc1{
+    position: absolute;
+    right: -190px;
+    z-index: 3;
+    background: white;
+    top: 86px;
+    border: gray;
+    display: none;
+}
+.drope.hoc1 li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 200px;
+}
+.drope.hoc2{
+    position: absolute;
+    right: -190px;
+    z-index: 3;
+    background: white;
+    top: 116px;
+    border: gray;
+    display:none ;
+}
+.drope.hoc2 li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 200px;
+}
+.drope.hoc3{
+    position: absolute;
+    right: -190px;
+    z-index: 3;
+    background: white;
+    top: 145px;
+    border: gray;
+    display: none;
+}
+.drope.hoc3 li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 200px;
+}
+.drope.hoc4{
+    position: absolute;
+    right: -190px;
+    z-index: 3;
+    background: white;
+    top: 175px;
+    border: gray;
+    display:none ;
+}
+.drope.hoc4 li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 200px;
+}
+.drope.hoc5{
+    position: absolute;
+    right: -190px;
+    z-index: 3;
+    background: white;
+    top: 205px;
+    border: gray;
+    display:none ;
+}
+.drope.hoc5 li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 200px;
+}
+.drope.hoc6{
+    position: absolute;
+    right: -190px;
+    z-index: 3;
+    background: white;
+    top: 235px;
+    border: gray;
+    display:none ;
+}
+.drope.hoc6 li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 200px;
+}
+.drope.hoc7{
+    position: absolute;
+    right: -190px;
+    z-index: 3;
+    background: white;
+    top: 265px;
+    border: gray;
+    display:none ;
+}
+.drope.hoc7 li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 200px;
+}
+.drope.hoc8{
+    position: absolute;
+    right: -190px;
+    z-index: 3;
+    background: white;
+    top: 295px;
+    border: gray;
+    display:none ;
+}
+.drope.hoc8 li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 200px;
+}
+.drope.hoc9{
+    position: absolute;
+    right: -190px;
+    z-index: 3;
+    background: white;
+    top: 325px;
+    border: gray;
+    display:none ;
+}
+.drope.hoc9 li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 200px;
+}
+.drope.hoc10{
+    position: absolute;
+    right: -190px;
+    z-index: 3;
+    background: white;
+    top: 355px;
+    border: gray;
+    display:none ;
+}
+.drope.hoc10 li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 200px;
+}
+.drope.hoc11{
+    position: absolute;
+    right: -190px;
+    z-index: 3;
+    background: white;
+    top: 385px;
+    border: gray;
+    display:none ;
+}
+.drope.hoc11 li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 200px;
+}
+.drope.hoc12{
+    position: absolute;
+    right: -190px;
+    z-index: 3;
+    background: white;
+    top: 415px;
+    border: gray;
+    display:none ;
+}
+.drope.hoc12 li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 200px;
+}
+.drope.hoc13{
+    position: absolute;
+    right: -190px;
+    z-index: 3;
+    background: white;
+    top: 445px;
+    border: gray;
+    display:none ;
+}
+.drope.hoc13 li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 200px;
+}
+.drope.hoc14{
+    position: absolute;
+    right: -190px;
+    z-index: 3;
+    background: white;
+    top: 475px;
+    border: gray;
+    display:none ;
+}
+.drope.hoc14 li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 200px;
+}
+.drope.hoc li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 200px;
+}
+.drope-2 {
+    background: orange;
+    width: 30px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 1px;
+}
+
+.li:hover~.drope.hoc{
+    display: block;
+}
+.drope.hoc:hover{
+    display: block;
+}
+.li1:hover~.drope.hoc1{
+    display: block;
+}
+.drope.hoc1:hover{
+    display: block;
+}
+.li2:hover~.drope.hoc2{
+    display: block;
+}
+.drope.hoc2:hover{
+    display: block;
+}
+.li3:hover~.drope.hoc3{
+    display: block;
+}
+.drope.hoc3:hover{
+    display: block;
+}
+.li4:hover~.drope.hoc4{
+    display: block;
+}
+.drope.hoc4:hover{
+    display: block;
+}
+.li5:hover~.drope.hoc5{
+    display: block;
+}
+.drope.hoc5:hover{
+    display: block;
+}
+.li6:hover~.drope.hoc6{
+    display: block;
+}
+.drope.hoc6:hover{
+    display: block;
+}
+.li7:hover~.drope.hoc7{
+    display: block;
+}
+.drope.hoc7:hover{
+    display: block;
+}
+.li8:hover~.drope.hoc8{
+    display: block;
+}
+.drope.hoc8:hover{
+    display: block;
+}
+.li9:hover~.drope.hoc9{
+    display: block;
+}
+.drope.hoc9:hover{
+    display: block;
+}
+.li10:hover~.drope.hoc10{
+    display: block;
+}
+.drope.hoc10:hover{
+    display: block;
+}
+.li11:hover~.drope.hoc11{
+    display: block;
+}
+.drope.hoc11:hover{
+    display: block;
+}
+.li12:hover~.drope.hoc12{
+    display: block;
+}
+.drope.hoc12:hover{
+    display: block;
+}
+.li13:hover~.drope.hoc13{
+    display: block;
+}
+.drope.hoc13:hover{
+    display: block;
+}
+.li14:hover~.drope.hoc14{
+    display: block;
+}
+.drope.hoc14:hover{
+    display: block;
+}
+.card{
+    top: 5px;
+    position: absolute;
+    width: 75%;
+    right: 0px;
+}
+.card.one{
+    top: 330px;
+    position: absolute;
+    width: 75%;
+    right: 0px;
+}
+.card.two{
+    top: 657px;
+    position: absolute;
+    width: 75%;
+    right: 0px;}
+.line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    margin-left: 50px;
+    color: gray;
+}
+.text {
+    color: #2a70b8;
+    
+    /* text-transform: uppercase; */
+    font-weight: bold;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.card-box {
+    
+    width: 28%;
+    position: absolute;
+    top: 58px;
+    right: 496px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+.card-box.one{
+    
+    width: 28%;
+    position: absolute;
+    top: 58px;
+    right: 246px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+.card-box.two {
+    
+    width: 28%;
+    position: absolute;
+    top: 58px;
+    right: 0px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+.card-box.three {
+    
+    width: 28%;
+    position: absolute;
+    top: 316px;
+    right: 496px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+.card-box.four {
+    
+    width: 28%;
+    position: absolute;
+    top: 316px;
+    right: 246px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+.card-box.five {
+    
+    width: 28%;
+    position: absolute;
+    top: 316px;
+    right: 0px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+
+.card-box.seven {
+    
+    width: 28%;
+    position: absolute;
+    top: 820px;
+    right: 496px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+.card-box.eight {
+    
+    width: 28%;
+    position: absolute;
+    top: 820px;
+    right: 246px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+.card-box.nine {
+    
+    width: 28%;
+    position: absolute;
+    top: 820px;
+    right: 0px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+.card-box.ten {
+    
+    width: 28%;
+    position: absolute;
+    top: 569px;
+    right:496px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+.card-box.eleven {
+    
+    width: 28%;
+    position: absolute;
+    top: 569px;
+    right: 246px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+.card-box.twelve {
+    
+    width: 28%;
+    position: absolute;
+    top: 569px;
+    right: 0px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+.text1 {
+    display: flex;
+    align-items: center;
+}
+ .card img {
+    width: 30px;
+    padding: 20px 5px;
+}
+ .card span {
+    padding-left: 10px;
+}
+.text2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.eye {
+    display: flex;
+}
+.download {
+    display: flex;
+}
+.autho {
+    display: flex;
+    padding: 5px;
+}
+.tex3 {
+    background: lightgrey;
+    padding-bottom: 50px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.hover {
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    background: #186dd6de;
+
+    opacity: 0.7;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+button {
+    margin: 2px;
+    padding: 2px;
+    border-radius: 3px;
+    border: none;
+    padding: 5px 0px;
+    color: wheat;
+    background: none;
+    border: 1px solid white;
+}
+.hover{
+    display: none;
+
+    position: absolute;
+    top: 115px;
+    right: 1px;
+}
+.card-box:hover>.hover{
+    display: block;
+}
+
+.qr {
+    margin: 40px 0px;
+    border-right: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 20px;
+    border-radius: 5PX;
+}
+.hot {
+    background: red;
+    padding: 4px;
+    width: 40px;
+}
+.title-hot {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2a70b8;
+
+}
+.qr-img {
+    width: 150px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.qr-img img {
+    width: 100%;
+}
+.like-fb {
+    border-right: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 18px;
+    color: #2a70b8;
+
+    font-weight: bolt;
+    font-weight: bold;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+.footer{
+    border-top: 1px solid gray;
+    position: absolute;
+}
+.footer {
+    position: absolute;
+    top: 1930px;
+    width: 100%;
+    
+    height: 400px !important;
+}
+.footer{
+    background-image: url(https://hocmai.vn/theme/new2/images/bg-footer.png);
+}
+.inner-footer {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+.foot-c {
+    line-height: 2;
+    padding-right: 10px;
+    font-size: 15px;
+    color: gray;
+}
+.img-app {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.img-app img{
+    width: 60%;
+    padding-bottom: 10px;
+}
+img.top {
+    padding-top: 20px;
+}
+.footer-end {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+input[type="text"] {
+    outline: none;
+    width: 200px;
+}
+.like-fb img {
+    width: 190px;
+}
